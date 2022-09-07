@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Vocabulo</string>
+    <string name="close">SAIR</string>
+    <string name="playAgain">JOGAR NOVAMENTE</string>
+    <string name="loseMsg">VOCÊ PERDEU!!</string>
+    <string name="winMsg">VOCÊ GANHOU!!</string>
+    <string name="play">JOGAR</string>
+    <string name="developerInfo">Sobre o Desenvolvedor</string>
+    <string name="howToPlay">Como Jogar?</string>
+    <string name="textOne">Descubra a palavra certa em 5 tentativas. Após as tentativas as caixas de texto mostram o quão perto está da solução da palavra diária.</string>
+    <string name="otherPositionMsg">A letra A faz parte da palavra mas está em outra posição.</string>
+    <string name="textThree">A letra C não faz parte da palavra.</string>
+    <string name="tip2cat1">M</string>
+    <string name="tip2cat2">A</string>
+    <string name="tip2cat3">R</string>
+    <string name="tip2cat4">C</string>
+    <string name="tip2cat5">A</string>
+    <string name="tip1cat1">A</string>
+    <string name="tip1cat2">N</string>
+    <string name="tip1cat3">D</string>
+    <string name="tip1cat4">A</string>
+    <string name="tip1cat5">R</string>
+    <string name="tip3cat5">O</string>
+    <string name="tip3cat4">C</string>
+    <string name="tip3cat3">N</string>
+    <string name="tip3cat2">A</string>
+    <string name="tip3cat1">B</string>
+    <string name="textTwo">A letra R faz parte da palavra e está na posição correta.</string>
+
+</resources>

@@ -1,0 +1,1236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_wallpaper"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="4dp"
+    tools:context=".MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <!-- Edits Texts 1 - 5 -->
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp">
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+        <EditText
+            android:id="@+id/editTxt1"
+            android:inputType="textCapSentences|textCapCharacters|textCapWords|text"
+            android:layout_width="12dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/custom_edit"
+            android:fontFamily="monospace"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck" />
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+        <EditText
+            android:id="@+id/editTxt2"
+            android:inputType="textCapSentences|textCapCharacters|textCapWords|text"
+            android:layout_width="12dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/custom_edit"
+            android:fontFamily="monospace"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck" />
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+        <EditText
+            android:id="@+id/editTxt3"
+            android:inputType="textCapSentences|textCapCharacters|textCapWords|text"
+            android:layout_width="12dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/custom_edit"
+            android:fontFamily="monospace"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck" />
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+        <EditText
+            android:id="@+id/editTxt4"
+            android:inputType="textCapSentences|textCapCharacters|textCapWords|text"
+            android:layout_width="12dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/custom_edit"
+            android:fontFamily="monospace"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck" />
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+        <EditText
+            android:id="@+id/editTxt5"
+            android:inputType="textCapSentences|textCapCharacters|textCapWords|text"
+            android:layout_width="12dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/custom_edit"
+            android:fontFamily="monospace"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck" />
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+    </LinearLayout>
+
+    <!-- Edits Texts 6 - 10 -->
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+        <EditText
+            android:id="@+id/editTxt6"
+            android:inputType="textCapSentences|textCapCharacters|textCapWords|text"
+            android:layout_width="12dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/custom_editgray"
+            android:enabled="false"
+            android:fontFamily="monospace"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck" />
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+        <EditText
+            android:id="@+id/editTxt7"
+            android:inputType="textCapSentences|textCapCharacters|textCapWords|text"
+            android:layout_width="12dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/custom_editgray"
+            android:enabled="false"
+            android:fontFamily="monospace"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck" />
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+        <EditText
+            android:id="@+id/editTxt8"
+            android:inputType="textCapSentences|textCapCharacters|textCapWords|text"
+            android:layout_width="12dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/custom_editgray"
+            android:enabled="false"
+            android:fontFamily="monospace"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck" />
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+        <EditText
+            android:id="@+id/editTxt9"
+            android:inputType="textCapSentences|textCapCharacters|textCapWords|text"
+            android:layout_width="12dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/custom_editgray"
+            android:enabled="false"
+            android:fontFamily="monospace"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck" />
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+        <EditText
+            android:id="@+id/editTxt10"
+            android:inputType="textCapSentences|textCapCharacters|textCapWords|text"
+            android:layout_width="12dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/custom_editgray"
+            android:enabled="false"
+            android:fontFamily="monospace"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck" />
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+    </LinearLayout>
+
+    <!-- Edits Texts 11 - 15 -->
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+        <EditText
+            android:id="@+id/editTxt11"
+            android:inputType="textCapSentences|textCapCharacters|textCapWords|text"
+            android:layout_width="12dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/custom_editgray"
+            android:enabled="false"
+            android:fontFamily="monospace"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck" />
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+        <EditText
+            android:id="@+id/editTxt12"
+            android:inputType="textCapSentences|textCapCharacters|textCapWords|text"
+            android:layout_width="12dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/custom_editgray"
+            android:enabled="false"
+            android:fontFamily="monospace"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck" />
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+        <EditText
+            android:id="@+id/editTxt13"
+            android:inputType="textCapSentences|textCapCharacters|textCapWords|text"
+            android:layout_width="12dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/custom_editgray"
+            android:enabled="false"
+            android:fontFamily="monospace"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck" />
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+        <EditText
+            android:id="@+id/editTxt14"
+            android:inputType="textCapSentences|textCapCharacters|textCapWords|text"
+            android:layout_width="12dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/custom_editgray"
+            android:enabled="false"
+            android:fontFamily="monospace"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck" />
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+        <EditText
+            android:id="@+id/editTxt15"
+            android:inputType="textCapSentences|textCapCharacters|textCapWords|text"
+            android:layout_width="12dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/custom_editgray"
+            android:enabled="false"
+            android:fontFamily="monospace"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck" />
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+    </LinearLayout>
+
+    <!-- Edits Texts 16 - 20 -->
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+        <EditText
+            android:id="@+id/editTxt16"
+            android:inputType="textCapSentences|textCapCharacters|textCapWords|text"
+            android:layout_width="12dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/custom_editgray"
+            android:enabled="false"
+            android:fontFamily="monospace"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+        <EditText
+            android:id="@+id/editTxt17"
+            android:inputType="textCapSentences|textCapCharacters|textCapWords|text"
+            android:layout_width="12dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/custom_editgray"
+            android:enabled="false"
+            android:fontFamily="monospace"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+        <EditText
+            android:id="@+id/editTxt18"
+            android:inputType="textCapSentences|textCapCharacters|textCapWords|text"
+            android:layout_width="12dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/custom_editgray"
+            android:enabled="false"
+            android:fontFamily="monospace"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+        <EditText
+            android:id="@+id/editTxt19"
+            android:inputType="textCapSentences|textCapCharacters|textCapWords|text"
+            android:layout_width="12dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/custom_editgray"
+            android:enabled="false"
+            android:fontFamily="monospace"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+        <EditText
+            android:id="@+id/editTxt20"
+            android:inputType="textCapSentences|textCapCharacters|textCapWords|text"
+            android:layout_width="12dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/custom_editgray"
+            android:enabled="false"
+            android:fontFamily="monospace"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+    </LinearLayout>
+
+    <!-- Edits Texts 21 - 25 -->
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+        <EditText
+            android:id="@+id/editTxt21"
+            android:inputType="textCapSentences|textCapCharacters|textCapWords|text"
+            android:layout_width="12dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/custom_editgray"
+            android:enabled="false"
+            android:fontFamily="monospace"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+        <EditText
+            android:id="@+id/editTxt22"
+            android:inputType="textCapSentences|textCapCharacters|textCapWords|text"
+            android:layout_width="12dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/custom_editgray"
+            android:enabled="false"
+            android:fontFamily="monospace"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+        <EditText
+            android:id="@+id/editTxt23"
+            android:inputType="textCapSentences|textCapCharacters|textCapWords|text"
+            android:layout_width="12dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/custom_editgray"
+            android:enabled="false"
+            android:fontFamily="monospace"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+        <EditText
+            android:id="@+id/editTxt24"
+            android:inputType="textCapSentences|textCapCharacters|textCapWords|text"
+            android:layout_width="12dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/custom_editgray"
+            android:enabled="false"
+            android:fontFamily="monospace"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+        <EditText
+            android:id="@+id/editTxt25"
+            android:inputType="textCapSentences|textCapCharacters|textCapWords|text"
+            android:layout_width="12dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/custom_editgray"
+            android:enabled="false"
+            android:fontFamily="monospace"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+    </LinearLayout>
+
+    <!-- Botão Estilizado-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:text="@string/play"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+    <!-- TextView da Resposta -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="510dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:typeface="monospace" />
+    </LinearLayout>
+
+    <!-- Caixa de Vitória -->
+    <LinearLayout
+        android:id="@+id/winBox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <LinearLayout
+            android:id="@+id/winBoxS"
+            android:layout_width="290dp"
+            android:layout_height="286dp"
+            android:background="@drawable/custom_background"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="invisible"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="94dp"
+                android:background="@drawable/custom_button"
+                android:contentDescription="@string/app_name"
+                android:scaleType="center"
+                android:src="@mipmap/ic_win_foreground" />
+
+            <TextView
+                android:id="@+id/msgWin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/purple_500"
+                android:text="@string/winMsg"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/playAgain"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="monospace"
+                android:text="@string/playAgain"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/close"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="monospace"
+                android:text="@string/close"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Caixa de Derrota -->
+    <LinearLayout
+        android:id="@+id/loseBox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <LinearLayout
+            android:id="@+id/loseBoxS"
+            android:layout_width="290dp"
+            android:layout_height="286dp"
+            android:background="@drawable/custom_background"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="94dp"
+                android:background="@drawable/custom_button"
+                android:contentDescription="@string/app_name"
+                android:scaleType="center"
+                android:src="@mipmap/ic_lose_foreground" />
+
+
+            <TextView
+                android:id="@+id/msgLose"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="@string/loseMsg"
+                android:textColor="@color/purple_500"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/playAgainLose"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="monospace"
+                android:text="@string/playAgain"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/closeLose"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="monospace"
+                android:text="@string/close"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Como Jogar -->
+    <LinearLayout
+        android:id="@+id/howToPlayBox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/custom_background"
+        android:gravity="start"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:justificationMode="inter_word"
+            android:text="@string/textOne"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            tools:ignore="UnusedAttribute">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="2dp"
+            tools:ignore="TooManyViews">
+
+            <EditText
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_editgray"
+                android:enabled="false"
+                android:fontFamily="monospace"
+                android:inputType=""
+                android:text="@string/tip1cat1"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="Autofill,LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck">
+
+            </EditText>
+
+            <Space
+                android:layout_width="4dp"
+                android:layout_height="wrap_content">
+
+            </Space>
+
+            <EditText
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_editgray"
+                android:enabled="false"
+                android:fontFamily="monospace"
+                android:inputType=""
+                android:text="@string/tip1cat2"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="Autofill,LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck">
+
+            </EditText>
+
+            <Space
+                android:layout_width="4dp"
+                android:layout_height="wrap_content">
+
+            </Space>
+
+            <EditText
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_editgray"
+                android:enabled="false"
+                android:fontFamily="monospace"
+                android:inputType=""
+                android:text="@string/tip1cat3"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="Autofill,LabelFor,TouchTargetSizeCheck">
+
+            </EditText>
+
+            <Space
+                android:layout_width="4dp"
+                android:layout_height="wrap_content">
+
+            </Space>
+
+            <EditText
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_editgray"
+                android:enabled="false"
+                android:fontFamily="monospace"
+                android:inputType=""
+                android:text="@string/tip1cat4"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="Autofill,LabelFor,TouchTargetSizeCheck">
+
+            </EditText>
+
+            <Space
+                android:layout_width="4dp"
+                android:layout_height="wrap_content">
+
+            </Space>
+
+            <EditText
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/correct"
+                android:enabled="false"
+                android:fontFamily="monospace"
+                android:inputType=""
+                android:text="@string/tip1cat5"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="Autofill,LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck">
+
+            </EditText>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:justificationMode="inter_word"
+            android:text="@string/textTwo"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            tools:ignore="UnusedAttribute">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="2dp">
+
+            <EditText
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_editgray"
+                android:enabled="false"
+                android:fontFamily="monospace"
+                android:inputType=""
+                android:text="@string/tip2cat1"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="Autofill,LabelFor,TouchTargetSizeCheck">
+
+            </EditText>
+
+            <Space
+                android:layout_width="4dp"
+                android:layout_height="wrap_content">
+
+            </Space>
+
+            <EditText
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/otherposition"
+                android:enabled="false"
+                android:fontFamily="monospace"
+                android:inputType=""
+                android:text="@string/tip2cat2"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="Autofill,LabelFor,TouchTargetSizeCheck">
+
+            </EditText>
+
+            <Space
+                android:layout_width="4dp"
+                android:layout_height="wrap_content">
+
+            </Space>
+
+            <EditText
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_editgray"
+                android:enabled="false"
+                android:fontFamily="monospace"
+                android:inputType=""
+                android:text="@string/tip2cat3"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="Autofill,LabelFor,TouchTargetSizeCheck">
+
+            </EditText>
+
+            <Space
+                android:layout_width="4dp"
+                android:layout_height="wrap_content">
+
+            </Space>
+
+            <EditText
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_editgray"
+                android:enabled="false"
+                android:fontFamily="monospace"
+                android:inputType=""
+                android:text="@string/tip2cat4"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="Autofill,LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck">
+
+            </EditText>
+
+            <Space
+                android:layout_width="4dp"
+                android:layout_height="wrap_content">
+
+            </Space>
+
+            <EditText
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_editgray"
+                android:enabled="false"
+                android:fontFamily="monospace"
+                android:inputType=""
+                android:text="@string/tip2cat5"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="Autofill,LabelFor,TouchTargetSizeCheck">
+
+            </EditText>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:justificationMode="inter_word"
+            android:text="@string/otherPositionMsg"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            tools:targetApi="o">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="2dp">
+
+            <EditText
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_editgray"
+                android:enabled="false"
+                android:fontFamily="monospace"
+                android:inputType=""
+                android:text="@string/tip3cat1"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="Autofill,LabelFor,TouchTargetSizeCheck">
+
+            </EditText>
+
+            <Space
+                android:layout_width="4dp"
+                android:layout_height="wrap_content">
+
+            </Space>
+
+            <EditText
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:autofillHints=""
+                android:background="@drawable/custom_editgray"
+                android:enabled="false"
+                android:fontFamily="monospace"
+                android:inputType=""
+                android:text="@string/tip3cat2"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="LabelFor,TouchTargetSizeCheck">
+
+            </EditText>
+
+            <Space
+                android:layout_width="4dp"
+                android:layout_height="wrap_content">
+
+            </Space>
+
+            <EditText
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_editgray"
+                android:enabled="false"
+                android:fontFamily="monospace"
+                android:inputType=""
+                android:text="@string/tip3cat3"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="Autofill,LabelFor,TouchTargetSizeCheck">
+
+            </EditText>
+
+            <Space
+                android:layout_width="4dp"
+                android:layout_height="wrap_content">
+
+            </Space>
+
+            <EditText
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/wrong"
+                android:enabled="false"
+                android:fontFamily="monospace"
+                android:inputType=""
+                android:text="@string/tip3cat4"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="Autofill,LabelFor,TouchTargetSizeCheck,TouchTargetSizeCheck">
+
+            </EditText>
+
+            <Space
+                android:layout_width="4dp"
+                android:layout_height="wrap_content">
+
+            </Space>
+
+            <EditText
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_editgray"
+                android:enabled="false"
+                android:fontFamily="monospace"
+                android:inputType=""
+                android:text="@string/tip3cat5"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="Autofill,LabelFor,TouchTargetSizeCheck">
+
+            </EditText>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:justificationMode="inter_word"
+            android:text="@string/textThree"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            tools:targetApi="o">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/closeHowToPlay"
+            android:layout_width="80dp"
+            android:layout_height="42dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/custom_button"
+            android:enabled="true"
+            android:text="@string/close"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </Button>
+    </LinearLayout>
+
+</RelativeLayout>
